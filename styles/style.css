@@ -15,8 +15,13 @@ html, body {
     content: "";
     display: table; }
 
-input, select {
-  margin-bottom: 15px; }
+input, select, button {
+  margin-bottom: 15px;
+  width: 135px;
+  height: 30px; }
+
+small {
+  color: gray; }
 
 .builder-form {
   float: left;
