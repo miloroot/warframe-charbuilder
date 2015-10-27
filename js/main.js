@@ -1,10 +1,27 @@
 var WarframeModule = ( function( window, undefined ) {
 
+/**************************************************
+** Caching the DOM
+***************************************************/
   var $theForm = $( '.the-form'),
       $frameList = $( '.frame-list'),
-      $startTag = '<option>',
-      $endTag = '</option>';
+      $startTag = '<option class="chosen-frame">',
+      $endTag = '</option>',
+      $submitButton = $( '.submit-button' ),
+      $chosenFrame = $( '.chosen-frame' ),
+      $userName = $( '.name' ),
+      $frameMastery = $( '.mastery' );
 
+/**************************************************
+** Methods called in other methods
+***************************************************/
+  function submitCharacter() {
+    console.log( "Username: " + $userName.val() + " - Frame: " + $frameList.val() + " - Mastery Rank: " + $frameMastery.val() );
+  }
+
+/**************************************************
+** Methods called in the return{} object
+***************************************************/
   function loadFrames() {
     $.ajax({
       url: 'data/warframes.json',
@@ -20,10 +37,19 @@ var WarframeModule = ( function( window, undefined ) {
     });
   }
 
+  function clickHandlers() {
+    $submitButton.on( 'click', submitCharacter );
+  }
+
+/**************************************************
+** The return{} object calling methods above
+***************************************************/
   return {
-    loadFrames : loadFrames
+    loadFrames : loadFrames,
+    clickEvents : clickHandlers
   }
 
 } )( window );
 
 WarframeModule.loadFrames();
+WarframeModule.clickEvents();

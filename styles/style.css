@@ -14,4 +14,7 @@ html, body {
     content: "";
     display: table; }
 
+input, select {
+  margin-bottom: 15px; }
+
 /*# sourceMappingURL=style.css.map */

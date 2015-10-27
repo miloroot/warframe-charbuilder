@@ -5,3 +5,7 @@ html, body {
   margin: 0 auto;
   @include outer-container;
 }
+
+input, select {
+  margin-bottom: 15px;
+}
