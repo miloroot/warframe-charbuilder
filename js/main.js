@@ -10,13 +10,14 @@ var WarframeModule = ( function( window, undefined ) {
       $submitButton = $( '.submit-button' ),
       $chosenFrame = $( '.chosen-frame' ),
       $userName = $( '.name' ),
-      $frameMastery = $( '.mastery' );
+      $frameMastery = $( '.mastery' ),
+      $buildResult = $( '.build-result' );
 
 /**************************************************
 ** Methods called in other methods
 ***************************************************/
   function submitCharacter() {
-    console.log( "Username: " + $userName.val() + " - Frame: " + $frameList.val() + " - Mastery Rank: " + $frameMastery.val() );
+    $buildResult.html( $userName.val() + " // " + $frameList.val() + " - Mastery Rank: " + $frameMastery.val() );
   }
 
 /**************************************************
@@ -28,7 +29,7 @@ var WarframeModule = ( function( window, undefined ) {
       dataType: 'json',
       success: function( data ) {
         for( var i = 0; i < data.length; i++ ) {
-          $frameList.append( $startTag + data[i] + $endTag );
+          $frameList.append( $startTag + data[i].name + $endTag );
         }
       },
       error: function( data ) {

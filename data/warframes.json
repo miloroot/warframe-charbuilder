@@ -1,6 +1,12 @@
 [
-  "Ash",
-  "Atlas",
+  {
+    "name": "Ash",
+    "background": "img/ash.jpg"
+  },
+  {
+    "name": "Atlas",
+    "background": "img/atlas.jpg"
+  },
   "Banshee",
   "Chroma",
   "Ember",
