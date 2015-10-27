@@ -7,27 +7,96 @@
     "name": "Atlas",
     "background": "img/atlas.jpg"
   },
-  "Banshee",
-  "Chroma",
-  "Ember",
-  "Equinox",
-  "Excalibur",
-  "Frost",
-  "Hydroid",
-  "Limbo",
-  "Loki",
-  "Mag",
-  "Mesa",
-  "Mirage",
-  "Nekros",
-  "Nova",
-  "Nyx",
-  "Oberon",
-  "Rhino",
-  "Saryn",
-  "Trinity",
-  "Valkyr",
-  "Vauban",
-  "Volt",
-  "Zephyr"
+  {
+    "name": "Banshee",
+    "background": "img/banshee.jpg"
+  },
+  {
+    "name": "Chroma",
+    "background": "img/chroma.jpg"
+  },
+  {
+    "name": "Ember",
+    "background": "img/ember.jpg"
+  },
+  {
+    "name": "Equinox",
+    "background": "img/equinox.jpg"
+  },
+  {
+    "name": "Excalibur",
+    "background": "img/excalibur.jpg"
+  },
+  {
+    "name": "Frost",
+    "background": "img/frost.jpg"
+  },
+  {
+    "name": "Hydroid",
+    "background": "img/hydroid.jpg"
+  },
+  {
+    "name": "Limbo",
+    "background": "img/limbo.jpg"
+  },
+  {
+    "name": "Loki",
+    "background": "img/loki.jpg"
+  },
+  {
+    "name": "Mag",
+    "background": "img/mag.jpg"
+  },
+  {
+    "name": "Mesa",
+    "background": "img/mesa.jpg"
+  },
+  {
+    "name": "Mirage",
+    "background": "img/mirage.jpg"
+  },
+  {
+    "name": "Nekros",
+    "background": "img/nekros.jpg"
+  },
+  {
+    "name": "Nova",
+    "background": "img/nova.jpg"
+  },
+  {
+    "name": "Nyx",
+    "background": "img/nyx.jpg"
+  },
+  {
+    "name": "Oberon",
+    "background": "img/oberon.jpg"
+  },
+  {
+    "name": "Rhino",
+    "background": "img/rhino.jpg"
+  },
+  {
+    "name": "Saryn",
+    "background": "img/saryn.jpg"
+  },
+  {
+    "name": "Trinity",
+    "background": "img/trinity.jpg"
+  },
+  {
+    "name": "Valkyr",
+    "background": "img/valkyr.jpg"
+  },
+  {
+    "name": "Vauban",
+    "background": "img/vauban.jpg"
+  },
+  {
+    "name": "Volt",
+    "background": "img/volt.jpg"
+  },
+  {
+    "name": "Zephyr",
+    "background": "img/zephyr.jpg"
+  }
 ]
