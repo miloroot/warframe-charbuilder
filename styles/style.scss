@@ -1,11 +1,30 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 
+$textcolor : #313131;
+$modulebgcolor : #EBEBEB;
+$modulebordercolor : #D4D4D4;
+
 html, body {
   margin: 0 auto;
   @include outer-container;
+  color: $textcolor;
 }
 
 input, select {
   margin-bottom: 15px;
+}
+
+.builder-form {
+  @include span-columns(2);
+  background-color: $modulebgcolor;
+  border: 1px solid $modulebordercolor;
+  padding: 10px;
+}
+
+.build-result {
+  @include span-columns(9);
+  background-color: $modulebgcolor;
+  border: 1px solid $modulebordercolor;
+  padding: 10px;
 }

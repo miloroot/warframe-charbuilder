@@ -8,7 +8,8 @@ html, body {
   margin: 0 auto;
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  color: #313131; }
   html::after, body::after {
     clear: both;
     content: "";
@@ -16,5 +17,27 @@ html, body {
 
 input, select {
   margin-bottom: 15px; }
+
+.builder-form {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%;
+  background-color: #EBEBEB;
+  border: 1px solid #D4D4D4;
+  padding: 10px; }
+  .builder-form:last-child {
+    margin-right: 0; }
+
+.build-result {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+  background-color: #EBEBEB;
+  border: 1px solid #D4D4D4;
+  padding: 10px; }
+  .build-result:last-child {
+    margin-right: 0; }
 
 /*# sourceMappingURL=style.css.map */
