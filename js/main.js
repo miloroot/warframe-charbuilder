@@ -12,7 +12,11 @@ var WarframeModule = ( function( window, undefined ) {
       $chosenFrame = $( '.chosen-frame' ),
       $userName = $( '.name' ),
       $frameMastery = $( '.mastery' ),
-      $buildResult = $( '.build-result' );
+      $buildResult = $( '.build-result' ),
+      $buildResultImage = $( '.build-result-image' ),
+      $usernameHolder = $( '.username' ),
+      $warframeHolder = $( '.warframe' ),
+      $masteryHolder = $( '.masteryrank' );
 
 /**************************************************
 ** "Birth state"
@@ -23,21 +27,21 @@ var WarframeModule = ( function( window, undefined ) {
 ** Methods called in other methods
 ***************************************************/
   function submitCharacter() {
-
     $.ajax({
       url: 'data/warframes.json',
       dataType: 'json',
       success: function( data ) {
         var thisFrame = $frameList.val();
         var image = "<img src=" + "http://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/" + thisFrame.toLowerCase() + "Large.png" + ">";
-        $buildResult.append( image );
+        $buildResultImage.html( image );
       },
       error: function( data ) {
         console.log( "error @ function submitCharacter: ", data );
       }
     });
-
-    $buildResult.html( $userName.val() + " // " + $frameList.val() + " - Mastery Rank: " + $frameMastery.val() );
+    $usernameHolder.html( $userName.val() );
+    $warframeHolder.html( $frameList.val() );
+    $masteryHolder.html( "Mastery Rank: " + $frameMastery.val() );
     $buildResult.show();
   }
 
