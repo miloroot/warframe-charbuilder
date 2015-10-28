@@ -3,11 +3,12 @@ var WarframeModule = ( function( window, undefined ) {
 /**************************************************
 ** Caching the DOM
 ***************************************************/
-  var $theForm = $( '.the-form'),
-      $frameList = $( '.frame-list'),
+  var $theForm = $( '.the-form' ),
+      $frameList = $( '.frame-list' ),
       $startTag = '<option class="chosen-frame">',
       $endTag = '</option>',
       $submitButton = $( '.submit-button' ),
+      $resetButton = $( '.reset-button' ),
       $chosenFrame = $( '.chosen-frame' ),
       $userName = $( '.name' ),
       $frameMastery = $( '.mastery' ),
@@ -18,6 +19,11 @@ var WarframeModule = ( function( window, undefined ) {
 ***************************************************/
   function submitCharacter() {
     $buildResult.html( $userName.val() + " // " + $frameList.val() + " - Mastery Rank: " + $frameMastery.val() );
+  }
+
+  function resetFields() {
+    $userName.val( null );
+    $frameMastery.val( null );
   }
 
 /**************************************************
@@ -40,6 +46,7 @@ var WarframeModule = ( function( window, undefined ) {
 
   function clickHandlers() {
     $submitButton.on( 'click', submitCharacter );
+    $resetButton.on( 'click', resetFields );
   }
 
 /**************************************************
