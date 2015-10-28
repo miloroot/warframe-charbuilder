@@ -9,11 +9,15 @@ html, body {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Karla', sans-serif;
   color: #313131; }
   html::after, body::after {
     clear: both;
     content: "";
     display: table; }
+
+h2 {
+  font-family: 'Play', sans-serif; }
 
 input, select, button {
   margin-bottom: 15px;

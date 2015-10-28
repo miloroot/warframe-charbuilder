@@ -8,7 +8,12 @@ $modulebordercolor : #D4D4D4;
 html, body {
   margin: 0 auto;
   @include outer-container;
+  font-family: 'Karla', sans-serif;
   color: $textcolor;
+}
+
+h2 {
+  font-family: 'Play', sans-serif;
 }
 
 input, select, button {
