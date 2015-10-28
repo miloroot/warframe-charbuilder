@@ -1,102 +1,102 @@
 [
   {
     "name": "Ash",
-    "background": "img/ash.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/ashLarge.png"
   },
   {
     "name": "Atlas",
-    "background": "img/atlas.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/atlasLarge.png"
   },
   {
     "name": "Banshee",
-    "background": "img/banshee.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/bansheeLarge.png"
   },
   {
     "name": "Chroma",
-    "background": "img/chroma.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/chromaLarge.png"
   },
   {
     "name": "Ember",
-    "background": "img/ember.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/emberLarge.png"
   },
   {
     "name": "Equinox",
-    "background": "img/equinox.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/equinoxLarge.png"
   },
   {
     "name": "Excalibur",
-    "background": "img/excalibur.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/excaliburLarge.png"
   },
   {
     "name": "Frost",
-    "background": "img/frost.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/frostLarge.png"
   },
   {
     "name": "Hydroid",
-    "background": "img/hydroid.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/hydroidLarge.png"
   },
   {
     "name": "Limbo",
-    "background": "img/limbo.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/limboLarge.png"
   },
   {
     "name": "Loki",
-    "background": "img/loki.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/lokiLarge.png"
   },
   {
     "name": "Mag",
-    "background": "img/mag.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/magLarge.png"
   },
   {
     "name": "Mesa",
-    "background": "img/mesa.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/mesaLarge.png"
   },
   {
     "name": "Mirage",
-    "background": "img/mirage.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/mirageLarge.png"
   },
   {
     "name": "Nekros",
-    "background": "img/nekros.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/nekrosLarge.png"
   },
   {
     "name": "Nova",
-    "background": "img/nova.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/novaLarge.png"
   },
   {
     "name": "Nyx",
-    "background": "img/nyx.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/nyxLarge.png"
   },
   {
     "name": "Oberon",
-    "background": "img/oberon.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/oberonLarge.png"
   },
   {
     "name": "Rhino",
-    "background": "img/rhino.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/rhinoLarge.png"
   },
   {
     "name": "Saryn",
-    "background": "img/saryn.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/sarynLarge.png"
   },
   {
     "name": "Trinity",
-    "background": "img/trinity.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/trinityLarge.png"
   },
   {
     "name": "Valkyr",
-    "background": "img/valkyr.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/valkyrLarge.png"
   },
   {
     "name": "Vauban",
-    "background": "img/vauban.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/vaubanLarge.png"
   },
   {
     "name": "Volt",
-    "background": "img/volt.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/voltLarge.png"
   },
   {
     "name": "Zephyr",
-    "background": "img/zephyr.jpg"
+    "background": "https://n8k6e2y6.ssl.hwcdn.net/sites/all/themes/warframeWhiteReskin/images/warframes/zephyrLarge.png"
   }
 ]
