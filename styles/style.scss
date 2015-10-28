@@ -26,6 +26,20 @@ small {
   color: gray;
 }
 
+.username {
+  font-size: 40px;
+  font-family: 'Play', sans-serif;
+}
+
+.warframe {
+  font-size: 36px;
+  font-family: 'Play', sans-serif;
+}
+
+.masteryrank {
+  font-size: 32px;
+}
+
 .builder-form {
   @include span-columns(2);
   background-color: $modulebgcolor;
@@ -38,4 +52,8 @@ small {
   background-color: $modulebgcolor;
   border: 1px solid $modulebordercolor;
   padding: 10px;
+}
+
+.build-result-image {
+
 }
