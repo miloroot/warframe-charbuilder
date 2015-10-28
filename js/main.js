@@ -15,15 +15,22 @@ var WarframeModule = ( function( window, undefined ) {
       $buildResult = $( '.build-result' );
 
 /**************************************************
+** "Birth state"
+***************************************************/
+  $buildResult.hide();
+
+/**************************************************
 ** Methods called in other methods
 ***************************************************/
   function submitCharacter() {
     $buildResult.html( $userName.val() + " // " + $frameList.val() + " - Mastery Rank: " + $frameMastery.val() );
+    $buildResult.show();
   }
 
   function resetFields() {
     $userName.val( null );
     $frameMastery.val( null );
+    $buildResult.hide();
   }
 
 /**************************************************
