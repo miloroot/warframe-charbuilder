@@ -16,12 +16,15 @@ var WarframeModule = ( function( window, undefined ) {
       $buildResultImage = $( '.build-result-image' ),
       $usernameHolder = $( '.username' ),
       $warframeHolder = $( '.warframe' ),
-      $masteryHolder = $( '.masteryrank' );
+      $masteryHolder = $( '.masteryrank' ),
+      $menu = $( '.menu' ),
+      $menuToggleButton = $( '.toggle-menu' );
 
 /**************************************************
 ** "Birth state"
 ***************************************************/
   $buildResult.hide();
+  $menu.hide();
 
 /**************************************************
 ** Methods called in other methods
@@ -51,6 +54,10 @@ var WarframeModule = ( function( window, undefined ) {
     $buildResult.hide();
   }
 
+  function toggleMenu() {
+    $menu.toggle();
+  }
+
 /**************************************************
 ** Methods called in the return{} object
 ***************************************************/
@@ -72,6 +79,7 @@ var WarframeModule = ( function( window, undefined ) {
   function clickHandlers() {
     $submitButton.on( 'click', submitCharacter );
     $resetButton.on( 'click', resetFields );
+    $menuToggleButton.on( 'click', toggleMenu );
   }
 
 /**************************************************

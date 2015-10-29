@@ -40,6 +40,24 @@ small {
   font-size: 32px;
 }
 
+.menu {
+  @include span-columns(11);
+  background-color: $modulebgcolor;
+  border: 1px solid $modulebordercolor;
+  padding: 10px;
+  margin-bottom: 10px;
+  word-spacing: 20px;
+}
+
+.menu a {
+  color: #313131;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
 .builder-form {
   @include span-columns(2);
   background-color: $modulebgcolor;

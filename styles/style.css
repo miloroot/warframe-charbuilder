@@ -38,6 +38,26 @@ small {
 .masteryrank {
   font-size: 32px; }
 
+.menu {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 91.4702%;
+  background-color: #EBEBEB;
+  border: 1px solid #D4D4D4;
+  padding: 10px;
+  margin-bottom: 10px;
+  word-spacing: 20px; }
+  .menu:last-child {
+    margin-right: 0; }
+
+.menu a {
+  color: #313131;
+  text-decoration: none; }
+
+.menu a:hover {
+  text-decoration: underline; }
+
 .builder-form {
   float: left;
   display: block;
