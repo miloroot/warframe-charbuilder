@@ -3,22 +3,22 @@ var WarframeModule = ( function( window, undefined ) {
 /**************************************************
 ** Caching the DOM
 ***************************************************/
-  var $theForm = $( '.the-form' ),
-      $frameList = $( '.frame-list' ),
-      $startTag = '<option class="chosen-frame">',
-      $endTag = '</option>',
-      $submitButton = $( '.submit-button' ),
-      $resetButton = $( '.reset-button' ),
-      $chosenFrame = $( '.chosen-frame' ),
-      $userName = $( '.name' ),
-      $frameMastery = $( '.mastery' ),
-      $buildResult = $( '.build-result' ),
-      $buildResultImage = $( '.build-result-image' ),
-      $usernameHolder = $( '.username' ),
-      $warframeHolder = $( '.warframe' ),
-      $masteryHolder = $( '.masteryrank' ),
-      $menu = $( '.menu' ),
-      $menuToggleButton = $( '.toggle-menu' );
+  var $theForm            = $( '.the-form' ),
+      $frameList          = $( '.frame-list' ),
+      $startTag           = '<option class="chosen-frame">',
+      $endTag             = '</option>',
+      $submitButton       = $( '.submit-button' ),
+      $resetButton        = $( '.reset-button' ),
+      $chosenFrame        = $( '.chosen-frame' ),
+      $userName           = $( '.name' ),
+      $frameMastery       = $( '.mastery' ),
+      $buildResult        = $( '.build-result' ),
+      $buildResultImage   = $( '.build-result-image' ),
+      $usernameHolder     = $( '.username' ),
+      $warframeHolder     = $( '.warframe' ),
+      $masteryHolder      = $( '.masteryrank' ),
+      $menu               = $( '.menu' ),
+      $menuToggleButton   = $( '.toggle-menu' );
 
 /**************************************************
 ** "Birth state"
