@@ -76,3 +76,10 @@ small {
 .build-result-image {
 
 }
+
+.dps-wrapper {
+  @include span-columns(11);
+  background-color: $modulebgcolor;
+  border: 1px solid $modulebordercolor;
+  padding: 10px;
+}

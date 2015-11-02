@@ -81,4 +81,15 @@ small {
   .build-result:last-child {
     margin-right: 0; }
 
+.dps-wrapper {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 91.4702%;
+  background-color: #EBEBEB;
+  border: 1px solid #D4D4D4;
+  padding: 10px; }
+  .dps-wrapper:last-child {
+    margin-right: 0; }
+
 /*# sourceMappingURL=style.css.map */
